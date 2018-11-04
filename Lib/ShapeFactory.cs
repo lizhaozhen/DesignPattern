@@ -2,9 +2,14 @@ using System;
 
 namespace Lib
 {
-    public class ShapeFactory
+    public class ShapeFactory : AbstractFactory
     {
-        public IShape getShape(string shapeType){
+        public override IColor GetColor(string color)
+        {
+            return null;
+        }
+
+        public override IShape GetShape(string shapeType){
             if(shapeType == null){
                 return null;
             }		
