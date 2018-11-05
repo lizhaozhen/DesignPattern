@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Lib.ShapesAndColors
+namespace Lib.Factory
 {
     public class ShapeCache
     {

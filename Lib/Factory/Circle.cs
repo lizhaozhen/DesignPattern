@@ -1,6 +1,6 @@
 using System;
 
-namespace Lib.ShapesAndColors
+namespace Lib.Factory
 {
     public class Circle : IShape
     {
